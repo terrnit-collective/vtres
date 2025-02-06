@@ -1,4 +1,4 @@
-# Modern Vue 3D Landing Page Template
+# vtres = Vue 3 + TypeScript + Vite + Tailwind CSS + TresJS (Three JS)
 
 A stunning, modern landing page template built with Vue 3, TypeScript, and TresJS. Features beautiful 3D animations, smooth transitions, and a responsive design.
 
