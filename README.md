@@ -1,4 +1,4 @@
-# vtres = Vue 3 + TypeScript + Vite + Tailwind CSS + TresJS (Three JS)
+# Vtres - Opinionated Vite + Vue + ThreeJS Starter Template
 
 A stunning, modern landing page template built with Vue 3, TypeScript, and TresJS. Features beautiful 3D animations, smooth transitions, and a responsive design.
 
