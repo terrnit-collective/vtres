@@ -2,7 +2,8 @@
 
 A stunning, modern landing page template built with Vue 3, TypeScript, and TresJS. Features beautiful 3D animations, smooth transitions, and a responsive design.
 
-![Vue 3D Landing Page](./preview.png)
+![Screenshot_20250209_034337](https://github.com/user-attachments/assets/f3cbfe64-4106-4b4d-99db-37a5fadf8127)
+
 
 ## ✨ Features
 
