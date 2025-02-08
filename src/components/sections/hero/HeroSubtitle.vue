@@ -9,8 +9,10 @@ useFadeInUp(subtitle, 200)
 <template>
   <p
     ref="subtitle"
-    class="text-2xl mb-8 max-w-2xl mx-auto text-muted-foreground"
+    class="text-md mb-8 max-w-2xl mx-auto text-muted-foreground"
   >
-    <slot>Discover the power of innovation and creativity</slot>
+    <slot>
+      Opinionated Vite Starter Template
+    </slot>
   </p>
 </template>

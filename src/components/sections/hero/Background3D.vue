@@ -81,7 +81,7 @@ onMounted(() => {
     </TresMesh>
     <TresMesh
       ref="sphere3Ref"
-      :position="[2, 2, 9]"
+      :position="[2, 0, 4]"
       :scale="0.4"
     >
       <TresSphereGeometry :args="[2, 28, 28]" />

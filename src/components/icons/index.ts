@@ -1,0 +1,5 @@
+export { default as TailwindIcon } from './TailwindIcon.vue'
+export { default as TresJsIcon } from './TresJsIcon.vue'
+export { default as TypescriptIcon } from './TypescriptIcon.vue'
+export { default as ViteIcon } from './ViteIcon.vue'
+export { default as VueIcon } from './VueIcon.vue'

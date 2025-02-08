@@ -29,9 +29,9 @@ onMounted(() => {
 <template>
   <div
     ref="counter"
-    class="mt-8 inline-flex items-center gap-2 px-6 py-2 bg-accent rounded-full"
+    class="mt-8 inline-flex items-center gap-2 px-4 py-2"
   >
-    <span class="text-2xl font-bold text-accent-foreground">{{ Math.floor(count) }}+</span>
+    <span class="text-xl font-bold text-accent-foreground">{{ Math.floor(count) }}+</span>
     <span class="text-sm text-muted-foreground">Reusable Components</span>
   </div>
 </template>

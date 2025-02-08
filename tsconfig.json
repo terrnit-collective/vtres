@@ -11,14 +11,9 @@
     },
     "resolveJsonModule": true,
     "types": [
-      // "vitest",
       "@types/three",
       "vite-plugin-glsl/ext",
       "vite/client"
-      // "vite-plugin-vue-layouts/client",
-      // "vite-plugin-pwa/client",
-      // "unplugin-vue-macros/macros-global",
-      // "unplugin-vue-router/client"
     ],
     "allowJs": true,
     "strict": true,
@@ -30,12 +25,6 @@
     "isolatedModules": true,
     "skipLibCheck": true
   },
-  // "vueCompilerOptions": {
-  //   "plugins": [
-  //     "@vue-macros/volar/define-models",
-  //     "@vue-macros/volar/define-slots"
-  //   ]
-  // },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "exclude": ["dist", "node_modules", "cypress"]
 }

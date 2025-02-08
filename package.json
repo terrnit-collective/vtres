@@ -1,7 +1,7 @@
 {
   "name": "vtres",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "private": true,
   "packageManager": "pnpm@9.15.3",
   "scripts": {
