@@ -1,12 +1,23 @@
-import { defineConfig } from 'vite'
+import { resolve } from 'node:path'
 import vue from '@vitejs/plugin-vue'
-import { fileURLToPath, URL } from 'url'
+import { defineConfig } from 'vite'
+import glsl from 'vite-plugin-glsl'
 
 export default defineConfig({
-  plugins: [vue()],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
-  }
+      '@/': `${resolve(__dirname, 'src')}/`,
+    },
+  },
+  plugins: [
+    glsl(),
+    vue({
+      template: {
+        compilerOptions: {
+          isCustomElement: tag =>
+            tag.startsWith('Tres') && tag !== 'TresCanvas',
+        },
+      },
+    }),
+  ],
 })

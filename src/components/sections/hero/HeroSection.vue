@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Background3D from './Background3D.vue'
-import HeroContent from './hero/HeroContent.vue'
+import HeroContent from './HeroContent.vue'
 </script>
 
 <template>

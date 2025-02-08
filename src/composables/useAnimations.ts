@@ -1,22 +1,5 @@
-import { useMotion } from '@vueuse/motion'
 import type { Ref } from 'vue'
-
-interface AnimationConfig {
-  initial: {
-    opacity: number
-    y?: number
-    scale?: number
-  }
-  enter: {
-    opacity: number
-    y?: number
-    scale?: number
-    transition: {
-      duration: number
-      delay?: number
-    }
-  }
-}
+import { useMotion } from '@vueuse/motion'
 
 export function useFadeInUp(element: Ref<null>, delay: number = 0): void {
   useMotion(element, {

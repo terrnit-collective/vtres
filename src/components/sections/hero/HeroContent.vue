@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import HeroTitle from './HeroTitle.vue'
-import HeroSubtitle from './HeroSubtitle.vue'
-import TechStack from './TechStack.vue'
+import Button from '@/components/ui/Button.vue'
 import ComponentCounter from './ComponentCounter.vue'
-import Button from '../ui/Button.vue'
+import HeroSubtitle from './HeroSubtitle.vue'
+import HeroTitle from './HeroTitle.vue'
+import TechStack from './TechStack.vue'
 </script>
 
 <template>

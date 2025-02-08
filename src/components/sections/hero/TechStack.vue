@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import { useFadeInUp } from '@/composables/useAnimations'
+import { ref } from 'vue'
 
 const techStack = ref(null)
 
@@ -9,7 +9,7 @@ const technologies = [
   { name: 'TypeScript', icon: '🔷', link: 'https://www.typescriptlang.org' },
   { name: 'Vite', icon: '⚡', link: 'https://vitejs.dev' },
   { name: 'TresJS', icon: '🎮', link: 'https://tresjs.org' },
-  { name: 'TailwindCSS', icon: '🎨', link: 'https://tailwindcss.com' }
+  { name: 'TailwindCSS', icon: '🎨', link: 'https://tailwindcss.com' },
 ]
 
 useFadeInUp(techStack, 600)
@@ -17,7 +17,9 @@ useFadeInUp(techStack, 600)
 
 <template>
   <div ref="techStack" class="mt-8">
-    <p class="text-sm text-muted-foreground mb-4">Built with modern technologies</p>
+    <p class="text-sm text-muted-foreground mb-4">
+      Built with modern technologies
+    </p>
     <div class="flex flex-wrap justify-center gap-4">
       <a
         v-for="tech in technologies"

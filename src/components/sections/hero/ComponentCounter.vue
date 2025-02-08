@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
 import { useScaleIn } from '@/composables/useAnimations'
+import { onMounted, ref } from 'vue'
 
 const counter = ref(null)
 const count = ref(0)
@@ -17,7 +17,8 @@ onMounted(() => {
   const timer = setInterval(() => {
     if (count.value < targetCount) {
       count.value = Math.min(count.value + increment, targetCount)
-    } else {
+    }
+    else {
       clearInterval(timer)
       count.value = targetCount
     }
@@ -26,9 +27,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div 
-    ref="counter" 
-    class="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-accent rounded-full"
+  <div
+    ref="counter"
+    class="mt-8 inline-flex items-center gap-2 px-6 py-2 bg-accent rounded-full"
   >
     <span class="text-2xl font-bold text-accent-foreground">{{ Math.floor(count) }}+</span>
     <span class="text-sm text-muted-foreground">Reusable Components</span>
